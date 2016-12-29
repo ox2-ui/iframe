@@ -12,6 +12,6 @@ const styles = {
 storiesOf('Iframe', module)
   .add('default', () => (
     <div style={styles.wrapper}>
-      <Iframe url={'index.html'} />
+      <Iframe url={'sample/index.html'} />
     </div>
   ));

@@ -5,6 +5,7 @@ module.exports = {
     es6: true,
     browser: true,
     node: true,
+    jest: true,
   },
   extends: 'eslint:recommended',
   parser: 'babel-eslint',
@@ -19,7 +20,7 @@ module.exports = {
   plugins: [
     'babel',
     'react',
-    'mocha',
+    'jest',
   ],
   rules: {
     'array-bracket-spacing': ['error', 'never'],
@@ -121,12 +122,6 @@ module.exports = {
     'react/sort-comp': 'error',
     'react/sort-prop-types': 'error',
     'react/wrap-multilines': 'error',
-    'mocha/handle-done-callback': 'error',
-    'mocha/no-exclusive-tests': 'error',
-    'mocha/no-global-tests': 'error',
-    'mocha/no-pending-tests': 'error',
-    'mocha/no-skipped-tests': 'error',
-
     'react/no-string-refs': 'warn', // Whishlist, one day.
 
     'strict': 'off',
@@ -140,10 +135,9 @@ module.exports = {
     'react/forbid-prop-types': 'off',
     'react/prefer-stateless-function': 'off',
     'react/require-optimization': 'off',
-    'mocha/no-synchronous-tests': 'off',
-    'mocha/valid-suite-description': 'off',
-    'mocha/valid-test-description': 'off',
     'babel/object-shorthand': 'off',
     'babel/new-cap': 'off',
+    "jest/no-exclusive-tests": 'error',
+    "jest/no-identical-title": 'error',
   },
 };

@@ -1,0 +1,32 @@
+exports[`test renders correctly 1`] = `
+<Iframe
+  url="sample/index.html">
+  <AutoSizer
+    onResize={[Function]}>
+    <div
+      style={
+        Object {
+          "height": 0,
+          "overflow": "visible",
+          "width": 0,
+        }
+      }>
+      <iframe
+        height={0}
+        src="sample/index.html"
+        style={
+          Object {
+            "border": "none",
+            "margin": "0",
+            "padding": "0",
+          }
+        }
+        width={0}>
+        <p>
+          Your browser does not support iframes.
+        </p>
+      </iframe>
+    </div>
+  </AutoSizer>
+</Iframe>
+`;
