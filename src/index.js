@@ -1,1 +1,2 @@
-// export MyComponent from './MyComponent';
+export Iframe from './Iframe';
+export IframeWrapped from './IframeWrapped';
