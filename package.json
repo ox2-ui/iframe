@@ -10,7 +10,7 @@
   "scripts": {
     "build": "npm run build:babel && npm run build:copy-files",
     "build-storybook": "build-storybook -s ./public",
-    "build:babel": "babel ./src --ignore *.story.js --out-dir ./build",
+    "build:babel": "babel ./src --ignore *.story.js,*.test.js --out-dir ./build",
     "build:copy-files": "babel-node ./scripts/copy-files.js",
     "clean:build": "rimraf build",
     "docs": "styleguidist server",
