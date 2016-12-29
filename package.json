@@ -16,7 +16,7 @@
     "docs": "styleguidist server",
     "docs:build": "styleguidist build && npm run docs:copy-to-public",
     "docs:copy-to-public": "bash ./scripts/copy_docs.sh",
-    "lint": "eslint src test/integration && echo \"eslint: no lint errors\"; exit 0",
+    "lint": "eslint src scripts && echo \"eslint: NO LINT ERRORS\"; exit 0",
     "prebuild": "npm run clean:build && npm run lint",
     "storybook": "start-storybook -p 55001 -s ./public",
     "test": "jest",
@@ -37,6 +37,7 @@
     "enzyme-to-json": "^1.4.5",
     "eslint": "^3.12.2",
     "eslint-plugin-babel": "^4.0.0",
+    "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jest": "^1.0.2",
     "eslint-plugin-react": "^6.7.1",
     "fs-extra": "^1.0.0",
@@ -61,7 +62,9 @@
     "react-dom": "^15.0.0"
   },
   "jest": {
-    "testPathDirs": ["./src"],
+    "testPathDirs": [
+      "./src"
+    ],
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ]
