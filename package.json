@@ -19,7 +19,7 @@
     "lint": "eslint src test/integration && echo \"eslint: no lint errors\"; exit 0",
     "prebuild": "npm run clean:build && npm run lint",
     "storybook": "start-storybook -p 55001 -s ./public",
-    "test": "jest /src",
+    "test": "jest",
     "test:update": "yarn test -- -u"
   },
   "devDependencies": {
@@ -61,6 +61,7 @@
     "react-dom": "^15.0.0"
   },
   "jest": {
+    "testPathDirs": ["./src"],
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ]
