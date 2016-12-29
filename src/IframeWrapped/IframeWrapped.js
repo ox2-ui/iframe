@@ -42,7 +42,7 @@ IframeWrapped.propTypes = {
    */
   style: PropTypes.object,
   /**
-   * Url to show in the iframe
+   * Url to load into the iframe
    */
   url: PropTypes.string,
 };

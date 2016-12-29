@@ -39,9 +39,17 @@ const Iframe = (props) => {
 
 Iframe.propTypes = {
   /**
-   * The css class name of the root element.
+   * The css class name of the iframe element.
    */
   className: PropTypes.string,
+  /**
+   * The css style object of the iframe element.
+   */
+  style: PropTypes.object,
+  /**
+   * Url to load into the iframe
+   */
+  url: PropTypes.string,
 };
 
 export default Iframe;
