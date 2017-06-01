@@ -52,6 +52,7 @@
     "npm": "^3.0.0"
   },
   "dependencies": {
+    "prop-types": "^15.5.10",
     "react-virtualized": "^9.7.6"
   },
   "peerDependencies": {
