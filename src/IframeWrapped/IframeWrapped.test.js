@@ -5,7 +5,7 @@ import IframeWrapped from './IframeWrapped';
 
 it('renders correctly', () => {
   const wrapper = mount(
-    <IframeWrapped url={'sample/index.html'} />
+    <IframeWrapped url={'sample/index.html'} />,
   );
 
   expect(wrapper).toMatchSnapshot();

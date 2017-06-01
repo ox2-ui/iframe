@@ -13,7 +13,7 @@ const styles = {
 /**
  * Iframe Component
  */
-const Iframe = (props) => {
+const Iframe = props => {
   const { className, style, url } = props;
 
   const mergedStyles = {

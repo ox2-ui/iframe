@@ -9,9 +9,8 @@ const styles = {
   },
 };
 
-storiesOf('Iframe', module)
-  .add('default', () => (
-    <div style={styles.wrapper}>
-      <Iframe url={'sample/index.html'} />
-    </div>
-  ));
+storiesOf('Iframe', module).add('default', () => (
+  <div style={styles.wrapper}>
+    <Iframe url={'sample/index.html'} />
+  </div>
+));

@@ -15,7 +15,7 @@ const styles = {
 /**
  * IframeWrapped Component
  */
-const IframeWrapped = (props) => {
+const IframeWrapped = props => {
   const { className, style, url } = props;
 
   const mergedStyles = {
@@ -24,10 +24,7 @@ const IframeWrapped = (props) => {
   };
 
   return (
-    <div
-      className={className}
-      style={mergedStyles}
-    >
+    <div className={className} style={mergedStyles}>
       <Iframe url={url} />
     </div>
   );
@@ -49,4 +46,3 @@ IframeWrapped.propTypes = {
 };
 
 export default IframeWrapped;
-

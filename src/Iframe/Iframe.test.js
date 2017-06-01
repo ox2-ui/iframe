@@ -5,7 +5,7 @@ import Iframe from './Iframe';
 
 it('renders correctly', () => {
   const wrapper = mount(
-    <Iframe url={'sample/index.html'} />
+    <Iframe url={'sample/index.html'} />,
   );
 
   expect(wrapper).toMatchSnapshot();
