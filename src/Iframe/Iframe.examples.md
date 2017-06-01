@@ -1,3 +1,14 @@
 ### Iframe
 
-    <Iframe url={'http://apple.com'} />
+    const styles = {
+      wrapper: {
+        width: '200px',
+        height: '300px',
+      },
+    };
+
+
+    <div style={styles.wrapper}>
+      <Iframe url={'http://example.com'} />
+    </div>
+
