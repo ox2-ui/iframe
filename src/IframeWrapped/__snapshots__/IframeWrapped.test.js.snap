@@ -1,6 +1,9 @@
-exports[`test renders correctly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
 <IframeWrapped
-  url="sample/index.html">
+  url="sample/index.html"
+>
   <div
     style={
       Object {
@@ -10,11 +13,14 @@ exports[`test renders correctly 1`] = `
         "right": "0",
         "top": "0",
       }
-    }>
+    }
+  >
     <Iframe
-      url="sample/index.html">
+      url="sample/index.html"
+    >
       <AutoSizer
-        onResize={[Function]}>
+        onResize={[Function]}
+      >
         <div
           style={
             Object {
@@ -22,7 +28,8 @@ exports[`test renders correctly 1`] = `
               "overflow": "visible",
               "width": 0,
             }
-          }>
+          }
+        >
           <iframe
             height={0}
             src="sample/index.html"
@@ -33,7 +40,8 @@ exports[`test renders correctly 1`] = `
                 "padding": "0",
               }
             }
-            width={0}>
+            width={0}
+          >
             <p>
               Your browser does not support iframes.
             </p>
