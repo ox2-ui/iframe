@@ -26,10 +26,10 @@ const Iframe = props => {
       {({ height, width }) => (
         <iframe
           className={className}
-          style={mergedStyles}
-          src={url}
-          width={width}
           height={height}
+          src={url}
+          style={mergedStyles}
+          width={width}
         >
           <p>Your browser does not support iframes.</p>
         </iframe>
