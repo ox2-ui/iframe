@@ -1,7 +1,5 @@
 import { configure } from '@storybook/react';
-import {
-  setOptions,
-} from '@storybook/addon-options';
+import { setOptions } from '@storybook/addon-options';
 
 const req = require.context('../src/', true, /.story\.js$/);
 
