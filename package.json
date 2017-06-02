@@ -26,6 +26,7 @@
   "devDependencies": {
     "@ox2/css-font-roboto": "^1.0.0",
     "@ox2/css-font-roboto-condensed": "^3.0.0",
+    "@ox2/ycss": "^1.6.0",
     "@storybook/addon-options": "3.0.0",
     "@storybook/react": "3.0.0",
     "babel-cli": "^6.24.1",
