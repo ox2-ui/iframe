@@ -2,20 +2,10 @@ const path = require('path');
 
 const config = {
   module: {
-    loaders: [
+    rules: [
       {
-        test: /\.css?$/,
-        loaders: ['style', 'raw'],
-        include: path.resolve(__dirname, '../'),
-      },
-      {
-        test: /\.json$/,
-        loader: 'json',
-        include: path.resolve(__dirname, '../'),
-      },
-      {
-        test: /\.woff$/,
-        loader: 'url?limit=50000',
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
         include: path.resolve(__dirname, '../'),
       },
     ],

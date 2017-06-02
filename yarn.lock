@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@ox2/css-font-roboto-condensed@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@ox2/css-font-roboto-condensed/-/css-font-roboto-condensed-3.0.0.tgz#a169571cd96cc7d141d26d3671d307c8fb59a477"
+
+"@ox2/css-font-roboto@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@ox2/css-font-roboto/-/css-font-roboto-1.0.0.tgz#6bb11e4ad99f081ce03eb8c3b5a77db8c387631d"
+
 "@storybook/addon-actions@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-3.0.0.tgz#e141378eeff36cbc61d27ba4330eaadfb6cd5c8b"
@@ -5983,7 +5991,7 @@ sax@^1.2.1, sax@~1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.1.tgz#7b8e656190b228e81a66aea748480d828cd2d37a"
 
-schema-utils@^0.x:
+schema-utils@^0.3.0, schema-utils@^0.x:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-0.3.0.tgz#f5877222ce3e931edae039f17eb3716e7137f8cf"
   dependencies:
@@ -6323,6 +6331,13 @@ style-loader@^0.17.0:
   resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-0.17.0.tgz#e8254bccdb7af74bd58274e36107b4d5ab4df310"
   dependencies:
     loader-utils "^1.0.2"
+
+style-loader@^0.18.1:
+  version "0.18.1"
+  resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-0.18.1.tgz#6afca8953c842830e5e2dc84796309880a97f7e8"
+  dependencies:
+    loader-utils "^1.0.2"
+    schema-utils "^0.3.0"
 
 supports-color@^0.2.0:
   version "0.2.0"
