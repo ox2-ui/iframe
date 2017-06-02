@@ -44,7 +44,7 @@ module.exports = {
     'jsx-quotes': ['error', 'prefer-double'],
     'keyword-spacing': 'error',
     'key-spacing': 'error',
-    'max-len': 'off', // XXX Reconsider later ['error', 120, 4]
+    'max-len': 'off',
     'new-cap': ['off', {capIsNew: true, newIsCap: true}], // Wishlist, one day
     'no-unused-expressions': 'off', // do expressions in es7 https://github.com/babel/eslint-plugin-babel/issues/13
     'no-unused-vars': 'error',
@@ -122,8 +122,8 @@ module.exports = {
     'react/sort-comp': 'error',
     'react/sort-prop-types': 'error',
     'react/no-string-refs': 'warn', // Whishlist, one day.
-
     'strict': 'off',
+    'react/no-unused-prop-types': 'error',
     'no-case-declarations': 'off',
     'react/jsx-key': 'off',
     'react/jsx-no-bind': 'off',
