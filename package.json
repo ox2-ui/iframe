@@ -16,7 +16,7 @@
     "docs": "styleguidist server",
     "docs:build": "styleguidist build && npm run docs:copy-to-public",
     "docs:copy-to-public": "bash ./scripts/copy_docs.sh",
-    "lint": "eslint src scripts && echo \"eslint: NO LINT ERRORS\"; exit 0",
+    "lint": "eslint src scripts; exit 0",
     "prebuild": "npm run clean:build && npm run lint && npm run test",
     "prettier": "prettier --print-width 60 --single-quote --trailing-comma all --write \"{src,.storybook,scripts}/**/*.js\"",
     "storybook": "start-storybook -p 55001 -s ./public",
