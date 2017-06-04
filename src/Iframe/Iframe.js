@@ -23,7 +23,7 @@ const Iframe = props => {
 
   return (
     <AutoSizer>
-      {({ height, width }) => (
+      {({ height, width }) =>
         <iframe
           className={className}
           height={height}
@@ -32,8 +32,7 @@ const Iframe = props => {
           width={width}
         >
           <p>Your browser does not support iframes.</p>
-        </iframe>
-      )}
+        </iframe>}
     </AutoSizer>
   );
 };
