@@ -31,9 +31,8 @@ module.exports = {
     'consistent-this': ['error', 'self'],
     'dot-notation': 'error',
     'eqeqeq': ['error', 'always'],
-    'id-blacklist': ['error', 'e'], // B
     'jest/no-identical-title': 'error',
-    'new-cap': ['error', { capIsNew: true, newIsCap: true }, ],
+    'new-cap': ['error', { capIsNew: true, newIsCap: true } ],
     'no-await-in-loop': 'error',
     'no-bitwise': 'error',
     'no-else-return': 'error',
@@ -62,7 +61,6 @@ module.exports = {
     'react/jsx-no-literals': 'off',
     'react/no-children-prop': 'off',
     'react/no-set-state': 'off',
-    'sort-imports': 'error', // B
     'spaced-comment': 'error',
     'yoda': 'error',
   },
