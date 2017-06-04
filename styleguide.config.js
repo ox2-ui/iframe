@@ -67,9 +67,8 @@ module.exports = {
     componentpath.replace(/\.js$/, '.examples.md'),
   getComponentPathLine: componentPath => {
     const name = path.basename(componentPath, '.js');
-    const dir = path.dirname(
-      componentPath.replace(/src\//i, '')
-    );
+    const componentPathFixed = componentPath.replace(/src\//i, '');
+    const dir = path.dirname(componentPathFixed);
     return `import ${name} from '@ox2/iframe/${dir}';`;
   },
 };
