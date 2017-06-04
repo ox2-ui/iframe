@@ -56,7 +56,7 @@ module.exports = {
     },
     {
       name: 'Components',
-      components: 'src/**/*.js',
+      components: 'src/**/[A-Z]*.js',
     },
     {
       name: 'History',
