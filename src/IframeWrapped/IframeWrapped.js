@@ -30,6 +30,12 @@ const IframeWrapped = props => {
   );
 };
 
+IframeWrapped.defaultProps = {
+  className: '',
+  style: {},
+  url: '',
+};
+
 IframeWrapped.propTypes = {
   /**
    * The css class name of the root element.

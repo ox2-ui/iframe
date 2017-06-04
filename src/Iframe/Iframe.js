@@ -37,6 +37,12 @@ const Iframe = props => {
   );
 };
 
+Iframe.defaultProps = {
+  className: '',
+  style: {},
+  url: '',
+};
+
 Iframe.propTypes = {
   /**
    * The css class name of the iframe element.
