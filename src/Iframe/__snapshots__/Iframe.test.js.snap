@@ -2,6 +2,8 @@
 
 exports[`renders correctly 1`] = `
 <Iframe
+  className=""
+  style={Object {}}
   url="sample/index.html"
 >
   <AutoSizer
@@ -17,6 +19,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <iframe
+        className=""
         height={0}
         src="sample/index.html"
         style={

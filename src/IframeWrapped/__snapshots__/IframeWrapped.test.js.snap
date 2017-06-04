@@ -2,9 +2,12 @@
 
 exports[`renders correctly 1`] = `
 <IframeWrapped
+  className=""
+  style={Object {}}
   url="sample/index.html"
 >
   <div
+    className=""
     style={
       Object {
         "bottom": "0",
@@ -16,6 +19,8 @@ exports[`renders correctly 1`] = `
     }
   >
     <Iframe
+      className=""
+      style={Object {}}
       url="sample/index.html"
     >
       <AutoSizer
@@ -31,6 +36,7 @@ exports[`renders correctly 1`] = `
           }
         >
           <iframe
+            className=""
             height={0}
             src="sample/index.html"
             style={
