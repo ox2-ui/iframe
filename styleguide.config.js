@@ -11,7 +11,18 @@ module.exports = {
         {
           test: /\.js?$/,
           exclude: /node_modules/,
-          loader: 'babel-loader',
+          use: {
+            loader: 'babel-loader',
+            options: {
+              presets: ['env'],
+              plugins: [
+                require('babel-plugin-transform-class-properties'),
+                require('babel-plugin-transform-do-expressions'),
+                require('babel-plugin-transform-export-extensions'),
+                require('babel-plugin-transform-object-rest-spread'),
+              ],
+            },
+          },
         },
         {
           test: /\.css$/,
