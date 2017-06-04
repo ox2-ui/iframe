@@ -7,7 +7,13 @@ module.exports = {
     node: true,
     jest: true,
   },
-  extends: ['eslint:recommended','plugin:react/all', 'plugin:import/errors', 'prettier', 'prettier/react'],
+  extends: [
+    'eslint:recommended',
+    'plugin:react/all',
+    'plugin:import/errors',
+    'prettier',
+    'prettier/react',
+  ],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 7,
@@ -15,21 +21,18 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
       experimentalObjectRestSpread: true,
-    }
+    },
   },
-  plugins: [
-    'react',
-    'jest',
-    'import',
-  ],
+  plugins: ['react', 'jest', 'import'],
   rules: {
-    'arrow-parens': ["error", "as-needed"],
+    'arrow-parens': ['error', 'as-needed'],
     'consistent-return': 'error',
     'consistent-this': ['error', 'self'],
     'dot-notation': 'error',
     'eqeqeq': ['error', 'always'],
     'id-blacklist': ['error', 'e'], // B
-    'new-cap': ['error', {capIsNew: true, newIsCap: true}], // Wishlist, one day
+    'jest/no-identical-title': 'error',
+    'new-cap': ['error', { capIsNew: true, newIsCap: true }, ],
     'no-await-in-loop': 'error',
     'no-shadow': 'error',
     'no-unneeded-ternary': 'error',
@@ -39,8 +42,6 @@ module.exports = {
     'prefer-arrow-callback': 'error',
     'prefer-const': 'error',
     'prefer-template': 'error',
-    'spaced-comment': 'error',
-    'yoda': 'error',
     'react/forbid-component-props': 'off',
     'react/forbid-prop-types': 'off',
     'react/jsx-boolean-value': ['error', 'always'],
@@ -48,5 +49,7 @@ module.exports = {
     'react/jsx-no-literals': 'off',
     'react/no-children-prop': 'off',
     'react/no-set-state': 'off',
+    'spaced-comment': 'error',
+    'yoda': 'error',
   },
 };
