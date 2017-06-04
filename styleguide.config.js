@@ -1,11 +1,10 @@
 const path = require('path');
-const glob = require('glob');
 
 module.exports = {
   title: '@ox2/iframe',
-  template: './docs/src/template.html',
   serverPort: 55002,
   styleguideDir: './docs',
+  skipComponentsWithoutExample: true,
   webpackConfig: {
     module: {
       loaders: [
@@ -46,13 +45,7 @@ module.exports = {
     },
     {
       name: 'Components',
-      components() {
-        return glob
-          .sync(path.resolve(__dirname, 'src/**/*.js'))
-          .filter(module => {
-            return /\/[A-Z]\w*\.js$/.test(module);
-          });
-      },
+      components: 'src/**/*.js',
     },
     {
       name: 'History',
