@@ -10,7 +10,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:react/all',
-    'plugin:import/errors',
+    'plugin:jest/recommended',
     'prettier',
     'prettier/react',
   ],
@@ -23,7 +23,7 @@ module.exports = {
       experimentalObjectRestSpread: true,
     },
   },
-  plugins: ['react', 'jest', 'import'],
+  plugins: ['react', 'jest'],
   rules: {
     'array-callback-return': 'error',
     'arrow-parens': ['error', 'as-needed'],
@@ -31,7 +31,6 @@ module.exports = {
     'consistent-this': ['error', 'self'],
     'dot-notation': 'error',
     'eqeqeq': ['error', 'always'],
-    'jest/no-identical-title': 'error',
     'new-cap': ['error', { capIsNew: true, newIsCap: true } ],
     'no-await-in-loop': 'error',
     'no-bitwise': 'error',
