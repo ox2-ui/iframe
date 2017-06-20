@@ -1,6 +1,6 @@
 {
   "name": "@ox2/iframe",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Auto sizable iframe component.",
   "repository": {
     "type": "git",
