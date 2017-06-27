@@ -42,15 +42,15 @@ module.exports = {
       sections: [
         {
           name: 'About',
-          content: './docs/src/introduction.md',
+          content: './info/introduction.md',
         },
         {
           name: 'Installation',
-          content: './docs/src/installation.md',
+          content: './info/installation.md',
         },
         {
           name: 'Usage',
-          content: './docs/src/usage.md',
+          content: './info/usage.md',
         },
       ],
     },
