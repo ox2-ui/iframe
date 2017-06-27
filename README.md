@@ -1,7 +1,6 @@
-# iframe
+# @ox2/iframe
 ![NPM version](https://img.shields.io/badge/npm-private-orange.svg?style=flat)
 <!-- ![NPM version](https://img.shields.io/npm/v/@ox2/iframe.svg?style=flat) -->
-
 
 Auto sizable iframe React component.
 
