@@ -20,7 +20,7 @@
     "lint": "eslint src scripts; exit 0",
     "prebuild": "npm run clean:build && npm run lint && npm run test",
     "prettier": "prettier --print-width 60 --single-quote --trailing-comma all --write \"src/**/*.js\"",
-    "storybook": "start-storybook -p 55011 -s ./public",
+    "storybook": "start-storybook -p 55001 -s ./public",
     "test": "jest",
     "test:update": "yarn test -- -u"
   },
