@@ -4,6 +4,7 @@
       wrapper: {
         width: '200px',
         height: '300px',
+        position: 'relative',
       },
     };
 
